@@ -1,0 +1,134 @@
+.mainEvent{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+
+}
+
+.eventLeft{
+    flex: 1;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.eventHeading{
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 55px;
+    color: #240D57;
+    text-align: center;
+    padding: 0;
+    margin-bottom: 0;
+}
+
+.eventDesc{
+    font-family: 'Helvetica';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+margin-top: 2px;
+padding-right: 190px;
+
+
+color: #828282;
+}
+
+.eventPerson{
+    font-size: 18px;
+    font-weight: 400;
+    color: #4f4f4f;
+}
+
+.eventDiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 300px;
+    margin-top: 70px;
+    
+}
+
+.eventDate{
+    padding: 0;
+}
+
+.firstDate{
+    margin-top: 0px;
+    font-family: 'Helvetica';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 21px;
+color: #240D57;
+margin-bottom: 0;
+
+}
+
+.lastDate{
+    font-family: 'Helvetica';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+color: #4f4f4f;
+margin-top: 0px;
+}
+
+.eventAddress{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 300px;
+    margin-top: 10px;
+}
+
+.go{
+    margin-top: 23px;
+}
+
+.address{
+    padding: 0;
+}
+
+.streetHeading{
+    font-family: 'Helvetica';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 21px;
+color: #240D57;
+margin-bottom: 0px;
+margin-top: 0px;
+padding: 0;
+}
+
+.streetName{
+    font-family: 'Helvetica';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+color: #4F4F4F;
+margin-top: 0;
+padding: 0;
+}
+
+.eventRight{
+    flex: 1;
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.eventImage{
+    width: 470px;
+    height: 470px;
+}

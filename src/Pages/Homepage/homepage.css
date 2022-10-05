@@ -1,0 +1,89 @@
+.mainBackground{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    
+}
+
+.main-left{
+    flex: 1;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.homeImage{
+    width: 400px;
+    height: 600px;
+    box-shadow: inset(0px 0px 46.769px rgba(0,0,0.05));
+    border-radius: 35.1522px;
+}
+
+.main-right{
+    flex: 1;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.rightText{
+    width: 580px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 100px;
+}
+
+.firstHeading{
+    color: #240D57;
+    font-family: 'Helvetica';
+    text-align: right;
+    font-size: 60px;
+    font-weight: 700px;
+    font-style: normal;
+    line-height: 50px;
+}
+
+.secondHeading{
+    background: linear-gradient(90deg, #8456EC 24.2%, #E87BF8 120.46%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+    font-family: 'Helvetica';
+    text-align: right;
+    font-weight: 700;
+    font-size: 60px;
+    font-style: normal;
+}
+
+.mainDesc{
+    width: 500px;
+    height: 56px;
+    font-family: 'Helvetica';
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 27px;
+    text-align: right;
+    color: #4F4F4F;
+    margin-left: 0px;
+    margin-top: 25px;
+}
+
+.mainButton{
+    width: 320px;
+    height: 55px;
+    border-radius: 10px;
+    background: linear-gradient(90deg, #8456EC 3.25%, #E87BF8 100%);
+    border: none;
+    color: white;
+    font-family: 'Helvetica';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 23px;
+margin-left: 170px;
+cursor: pointer;
+}
+
